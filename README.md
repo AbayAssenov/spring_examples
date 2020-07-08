@@ -14,11 +14,11 @@
     mvn clean install
     
     // After success building   you can run project
-    // Go in 'terget' folder you will see bank-data-0.0.1-SNAPSHOT.jar file , try run it
+    // Go in 'target' folder you will see bank-data-0.0.1-SNAPSHOT.jar file , try run it
     java -jar ./bank-data-0.0.1-SNAPSHOT.jar
     
     // Open browser and go on http://localhost:8080/swagger-ui.html
-    // You will need a file to verify the download , you can find it here in Resource folder  bank-data\src\main\resources\test file upload.csv
+    // You will need a file to verify the upload, you can find it here in Resource folder  bank-data\src\main\resources\test file upload.csv
     
     // Also you can open data base admin console just open in browser  http://localhost:8080/h2-console
     Driver Class: org.h2.Driver
